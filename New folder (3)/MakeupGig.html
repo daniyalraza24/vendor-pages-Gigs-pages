@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- card custom css  -->
+    <style>
+        .custom-card {
+            border: none;
+            transition: box-shadow 0.3s;
+        }
+
+        .custom-card:hover {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+
+        .custom-button {
+            background-color: #e72e77;
+            border: none;
+            border-radius: 5px;
+        }
+
+
+        /* footer css start here */
+
+        .color-black {
+            background: #4B4B4D;
+        }
+
+        footer {
+            font-family: open sans, Arial, sans-serif;
+        }
+
+        .footer-p {
+            color: white;
+            margin-top: 23px;
+            margin-bottom: 34px;
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        form {
+            display: block;
+            margin-top: 0em;
+        }
+
+        .subscribe {
+            margin: -5px;
+            background: rgb(237, 50, 55);
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none !important;
+        }
+
+        #top-home-form button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            color: inherit;
+            font: inherit;
+            margin: 0;
+        }
+
+        .list-inline {
+            padding-left: 0;
+            margin-left: -5px;
+            list-style: none;
+        }
+
+        .list-inline>li {
+            display: inline-block;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        a,
+        ul,
+        li,
+        select,
+        option,
+        span,
+        button {
+            font-family: 'Montserrat', sans-serif !important;
+        }
+
+        /* footer css end here */
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+    </header>
+    <!-- Gig-Section start here -->
+    <main>
+        <div class="container-fluid px-5 py-3 ">
+            <div class="row justify-content-center align-items-center g-2 ">
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 ">
+                    <h1 class="h6 text-bold  margin-r-5" style="font-size:22px">Makeup Artist</h1>
+                    <p class=" ">Showing
+                        <span class="text-bold"> <!-- -->33048 results</span>
+                        as per your search criteria
+                    </p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+                    <div class="input-group  ">
+                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                            aria-describedby="search-addon" />
+                        <button class="btn btn-outline-secondary" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M15.794 14.216l-4.612-4.61A6.5 6.5 0 1 0 9.5 15.5a6.5 6.5 0 0 0 1.684-.224l4.61 4.612a1 1 0 0 0 1.414-1.414zM9.5 13A5.5 5.5 0 1 1 9.5 2a5.5 5.5 0 0 1 0 11z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!-- <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">Column</div> -->
+            </div>
+
+
+            <!-- Gig-one in row -->
+            <div class="row justify-content-center align-items-center g-2 my-4">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card p-2 custom-card">
+                        <img src="https://image.wedmegood.com/resized/450X/uploads/project/134254/1619609727_158576512_267251858178421_7762668981063854073_n.jpg?crop=4,36,1073,603"
+                            class="object-fit-cover w-100" style="height:214px;border-radius:10px" loading="eager"
+                            id="vendor-card-0">
+                        <div class="card-body">
+                            <div class="row justify-content-center align-items-center g-2">
+                                <div class="col-sm-6">
+                                    <h5 class="card-title">Makeup Artist Name</h5>
+
+                                </div>
+                                <!-- <div class="col-sm-2"></div> -->
+                                <div class="col-sm-6 text-end">
+                                    <p class="card-text text-secondary">
+                                        <i class="bi bi-star" style="color: #e72e77;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg> <span class="text-secondary">4.8 (reviews 100)</span>
+                                    </p></i>
+                                </div>
+                            </div>
+                            <p class="card-text text-secondary">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="" fill="currentColor"
+                                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg> Hyderabad Sindh
+                                <br>
+                                <span>Rental Cost</span>
+                                <br>
+                                <span class="h5 text-dark">$ 2,50,000</span>
+                            </p>
+                            <div class="row justify-content-center align-items-center g-2 text-end">
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <div class="col">
+                                    <button class="text-light px-4 py-2 custom-button">Details</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Second GIg in Row  -->
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card p-2 custom-card">
+                        <img src="https://image.wedmegood.com/resized/450X/uploads/member/4155170/1680420135_image6520.jpg?crop=0,420,1170,657"
+                            class="object-fit-cover w-100" style="height:214px;border-radius:10px" loading="eager"
+                            id="vendor-card-0">
+                        <div class="card-body">
+                            <div class="row justify-content-center align-items-center g-2">
+                                <div class="col-sm-6">
+                                    <h5 class="card-title">Makeup Artist Name</h5>
+
+                                </div>
+                                <!-- <div class="col-sm-2"></div> -->
+                                <div class="col-sm-6 text-end">
+                                    <p class="card-text text-secondary">
+                                        <i class="bi bi-star" style="color: #e72e77;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg> <span class="text-secondary">4.8 (reviews 17)</span>
+                                    </p></i>
+                                </div>
+                            </div>
+                            <p class="card-text text-secondary">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="" fill="currentColor"
+                                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg> Hyderabad Sindh
+                                <br>
+                                <span>Rental Cost</span>
+                                <br>
+                                <span class="h5 text-dark">$ 2,50,000</span>
+                            </p>
+                            <div class="row justify-content-center align-items-center g-2 text-end">
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <div class="col">
+                                    <button class="text-light px-4 py-2 custom-button">Details</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Third Gig in -->
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card p-2 custom-card">
+                        <img src="https://image.wedmegood.com/resized/450X/uploads/member/87403/1678132314_Screenshot_20230302_142833_Instagram.jpg?crop=240,609,794,447"
+                            class="object-fit-cover w-100" style="height:214px;border-radius:10px" loading="eager"
+                            id="vendor-card-0">
+                        <div class="card-body">
+                            <div class="row justify-content-center align-items-center g-2">
+                                <div class="col-sm-6">
+                                    <h5 class="card-title">Makeup Artist Name</h5>
+
+                                </div>
+                                <!-- <div class="col-sm-2"></div> -->
+                                <div class="col-sm-6 text-end ">
+                                    <p class="card-text text-secondary">
+                                        <i class="bi bi-star" style="color: #e72e77;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg> <span class="text-secondary">4.8 (reviews 17)</span>
+                                    </p></i>
+                                </div>
+                            </div>
+                            <p class="card-text text-secondary">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="" fill="currentColor"
+                                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg> Hyderabad Sindh
+                                <br>
+                                <span>Rental Cost</span>
+                                <br>
+                                <span class="h5 text-dark">$ 2,50,000</span>
+                            </p>
+                            <div class="row justify-content-center align-items-center g-2 text-end">
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <div class="col">
+                                    <button class="text-light px-4 py-2 custom-button">Details</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Gig-Section End here -->
+
+    <!-- info section  -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col">
+                <h3>What does a Bridal Makeup package include</h3>
+                <p class="py-3 fw-medium">Mr Placer ensures that each wedding makeup artist on the platform is verified
+                    on multiple stages and satisfies the customers with their makeup services. If you are looking for
+                    bridal makeup artists who can give you a fantastic makeover for your wedding then, before booking
+                    the service ensure that you know what all is included in the typical bridal makeup package, which is
+                    as follows:</p>
+
+                <h3>What are the questions to ask when choosing a caterer?</h3>
+                <ul>
+                    <li class="py-2"><span class="fw-bold">Makeup of your choice:</span> Bridal makeup / Party makeup
+                        for family/ Engagement makeup/HD makeup/ Airbrush makeup. As we all know that makeup trends keep
+                        on changing it is advisable to hire a MUA who can suggest you best for your face.
+                    </li>
+
+                    <li class="py-2"><span class="fw-bold">Hairstyling:</span> Just like the wedding makeup, hairstyle
+                        can also make or break or look. Be it soft curls for your sangeet or a floral bridal bun for
+                        your wedding your MUA knows it best to make you look like a princess on your wedding.
+                    </li>
+
+                    <li class="py-2"><span class="fw-bold">Draping: Sari/ Bridal Dupatta:</span> This might be very tiny
+                        thing but very handy when your makeup artist or hairstylist is well equipped with draping a sari
+                        or bridal dupatta.</li>
+
+                    <li class="py-2"><span class="fw-bold">Nail polish change:</span>You would not want a plain nails on
+                        your wedding, right. Be it a neutral
+                        color gel or a bright red nail polish many MUA also gives this service.</li>
+
+                    <li class="py-2"><span class="fw-bold">Fake Eyelash Extensions: </span> Your eyes are the main part.
+                        Mastering in eye makeup is something that only few bridal makeup artists are good at it. Get a
+                        fake eyelash extension, which will make your eyes look bigger and prettier.</li>
+
+                    <li><span class="fw-bold">Outstation makeup charges:</span> Do ask your makeup artist if they will
+                        spend their money on the travel allowance or would you have to pay for their travel.</li>
+                </ul>
+
+                <h3>Why hiring a professional bridal makeup artist is so important for weddings?</h3>
+
+                <p>We might not realize it at an earlier stage but looking beautiful is something that every bride
+                    dreams off. As wedding is a lifetime experience it is something with which no bride can compromise
+                    with it. Be it unwanted blemishes or dark circles every Indian bride wants to look like a diva on
+                    her wedding. Covering all the unwanted parts professional makeup artists are like a magician who
+                    transforms a girl into a young gorgeous bride.</p>
+
+                <p>Be it from dewy makeup to giving you the perfect shade and shape of lipstick hiring a popular makeup
+                    artist for your nuptial ceremonies and wedding day is surely a wise option to choose because who
+                    doesn’t want to look pretty on her wedding photographs and preserve with for a lifetime. Boosting
+                    confidence and enhancing the facial features WMG has over 6000 professional bridal makeup artists
+                    and hairstylists who can give you your perfect bridal look</p>
+
+                <h3>Do makeup artists travel to the venue?</h3>
+
+                <p>Usually makeup artists do travel to the wedding venue to provide their services to all their clients.
+                    Whether the makeup artists are from the same city or is travelling to a completely different city to
+                    provide their services, they visit their clients to provide their services. However in some cases,
+                    the makeup artists prefer that clients visit their makeup studio to get their makeup done. This is
+                    usually the case when they have multiple booking for the day or just prefer to provide the services
+                    only at their salon or studio.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-section -->
+
+    <footer class="main-footer color-black mobile-view-hide">
+
+
+        <div class="row justify-content-center  align-items-start g-2 py-3 px-5  text-light">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 py-3 px-5">
+                <div class="container">
+                    <h4 class="custom-heading ">Event Planning Services</h4>
+                    <hr>
+                    <p class="">
+                        <a href="#" class="text-decoration-none custom-link text-light">All Event Venders</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Catering Services</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Wedding Planning</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Event Planning</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Birthday Planning</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Party Supplies</a>
+                    </p>
+
+                    <br>
+                    <br>
+
+                    <h4 class="custom-heading ">More</h4>
+                    <hr>
+                    <p class="">
+                        <a href="#" class="text-decoration-none custom-link text-light">Real Events</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Photos</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Articles</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Company Overview</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Why List With VenueLook</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Terms & Conditions</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Privacy Policy</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Contact Us</a> |
+                        <a href="#" class="text-decoration-none custom-link text-light">Share Your Feedback</a>
+                    </p>
+
+                    <br>
+                    <br>
+
+                    <h4 class="custom-heading ">Contact Info</h4>
+                    <hr>
+                    <div class="row justify-content-center align-items-center g-2">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <i class="fas fa-phone-alt"></i>+92 310 3905 162 &emsp;
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <i class="fas fa-envelope"></i> humza8115@gmail.com
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col">Column</div> -->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 py-3 px-5 ">
+                <div class="container">
+                    <div class="logo">
+                        <a href="#" class="text-decoration-none text-light">
+                            <h4 class="custom-heading ">Mr Placer</h4>
+                        </a>
+                        <hr>
+                        <p class="footer-p">Mr Placer is Pakistani's most loved Event Planning website! Check prices,
+                            verified reviews and book best wedding photographers, makeup artists, venues, decorators,
+                            and all other wedding vendors at guaranteed best prices...<a title="About Mr Placer"
+                                href="#" style="color:red;">More about Mr Placer</a></p>
+                        <h5 style="margin-top: 35px;">Subscribe For Party Ideas and Offers</h5>
+
+                        <form id="subscribeForm" action="/feedback/add-venuelook-feedback">
+                            <div class="email">
+                                <!-- text field -->
+                                <input type="text" id="email" placeholder="Your E-mail" style="height: 40px;">
+                                <!-- search button -->
+                                <a class="subscribe" href="javascript:void(0);">Subscribe</a>
+                            </div>
+
+                        </form>
+
+
+                        <ul class="footer-links-list list-inline  my-5" style="margin-top: 22px;">
+                            <li class=" web-links "><a href="#" class="text-light">Stay Connected</a></li>
+                            <li class=" web-links"><a href="https://www.facebook.com/venuelook" target="_blank"><img
+                                        class="social-icon lazyloaded" width="29" height="29"
+                                        src="https://cdn.venuelook.com/images/new-home-images/fb.png"
+                                        alt="facebook"></a></li>
+                            <li class=" web-links"><a href="https://www.instagram.com/venuelook" target="_blank"><img
+                                        class="social-icon lazyloaded" width="29" height="29"
+                                        src="https://cdn.venuelook.com/images/new-home-images/insta.png"
+                                        alt="instagram"></a></li>
+                            <li class=" web-links"><a href="https://twitter.com/venuelook" target="_blank"><img
+                                        class="social-icon lazyloaded" width="29" height="29"
+                                        src="https://cdn.venuelook.com/images/new-home-images/twitter.png"
+                                        alt="twitter"></a></li>
+                            <li class=" web-links"><a href="https://www.linkedin.com/company/venuelook"
+                                    target="_blank"><img class="social-icon lazyloaded" width="29" height="29"
+                                        src="https://cdn.venuelook.com/images/new-home-images/linkedin.png"
+                                        alt="linkedin"></a></li>
+                            <li class=" web-links"><a href="https://www.pinterest.com/venuelook" target="_blank"><img
+                                        class="social-icon lazyloaded" width="29" height="29"
+                                        src="https://cdn.venuelook.com/images/new-home-images/pin.png"
+                                        alt="pinterest"></a></li>
+                            <li class=" web-links"><a href="https://www.youtube.com/channel/UCECW3RPsvsfFZovt_hWiQIA"
+                                    target="_blank"><img class="social-icon lazyloaded" width="29" height="29"
+                                        src="https://cdn.venuelook.com/images/new-home-images/youtube2.png"
+                                        alt="pinterest"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end here -->
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
